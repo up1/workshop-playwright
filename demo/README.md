@@ -30,3 +30,9 @@ Open HTML report
 ```
 $npx playwright show-report
 ```
+
+Run test with [Docker compose](https://playwright.dev/docs/docker)
+```
+$cd ..
+$docker compose up test
+```
