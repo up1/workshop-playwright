@@ -15,8 +15,18 @@ Open url = `http://localhost:8080/` in web browser
 
 ## Start testing with playwright
 
-Create project with playwright
+Create project with playwright with TypeScript
 ```
 $cd test
 $npm init playwright@latest
+```
+
+Run test
+```
+$npx playwright test
+```
+
+Open HTML report
+```
+$npx playwright show-report
 ```
