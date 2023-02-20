@@ -8,3 +8,5 @@ services:
   test:
     build:
       context: ./test
+    environment:
+      - BASE_URL=http://web:8080
