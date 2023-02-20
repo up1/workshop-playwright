@@ -1,6 +1,4 @@
-import { Page, expect } from '@playwright/test'
-import { readdirSync, readFileSync } from 'fs'
-import { basename, join as pathJoin } from 'path'
+import { Page } from '@playwright/test'
 import { LoginPage } from './pages/login'
 import config from './config'
 

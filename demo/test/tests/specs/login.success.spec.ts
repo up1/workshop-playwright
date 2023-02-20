@@ -1,7 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { LoginPage } from '../pages/login'
 import { MailPage } from '../pages/mail'
-import config from '../config'
 import { login } from '../utils'
 
 test.describe('session', () => {
