@@ -12,6 +12,8 @@ demo-web-1          demo-web            "python server.py"   web                
 ```
 
 Open url = `http://localhost:8080/` in web browser
+* email = user@example
+* password = password
 
 ## Start testing with playwright
 
