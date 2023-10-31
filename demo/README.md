@@ -25,6 +25,7 @@ $npm init playwright@latest
 
 Run test
 ```
+$npm install
 $npx playwright test
 ```
 
