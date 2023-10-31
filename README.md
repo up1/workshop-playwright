@@ -26,6 +26,11 @@ Run test with debug
 $npx playwright test --debug
 ```
 
+Run test with trace
+```
+$npx playwright test --trace on
+```
+
 Run test in UI Mode
 ```
 $npx playwright test --ui
