@@ -38,7 +38,7 @@ Run test with [Docker compose](https://playwright.dev/docs/docker)
 ```
 $cd ..
 $docker compose build test
-$docker compose up test --remove-orphans
+$docker compose up test --remove-orphans --build
 ```
 
 ## Playwright Configuration
