@@ -8,8 +8,9 @@ test('Search data from google', async ({ page }) => {
     // await searchBox.fill("Playwright");
     // await searchBox.press("Enter");
 
-    await page.locator('xpath=//*[@name="q"]').fill("Playwright");
-    await page.locator('xpath=//*[@name="q"]').press("Enter");
+    const newLocal = page.locator('xpath=//*[@name="q"]');
+    await newLocal.fill("Playwright");
+    await newLocal.press("Enter");
 
 
     // await page.locator("#APjFqb").click()
