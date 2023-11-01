@@ -24,7 +24,7 @@ $npx playwright test --grep @xyz
 $npx playwright test --grep-invert @xyz
 ```
 
-## Working with environment  variables
+## Working with [environment variables](https://playwright.dev/docs/test-parameterize#passing-environment-variables)
 ```
 // Mac and Linux
 $export DATA_PATH=<path to data file>
