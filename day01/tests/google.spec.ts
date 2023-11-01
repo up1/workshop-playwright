@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Search data from google', async ({ page }) => {
+test('Search data from google @xyz', async ({ page }) => {
     // Arrange
     await page.goto('https://google.com');
     // Act
