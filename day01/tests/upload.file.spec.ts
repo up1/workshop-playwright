@@ -11,7 +11,8 @@ test('Search data from google @upload', async ({ page }) => {
     await expect(uploadFile).toBeVisible();
     await uploadFile.click()
     const fileChooser = await fileChooserPromise;
-    await fileChooser.setFiles(path.join(__dirname, 'data/1.txt'));
+    const dataPath = process.env.DATA_PATH || '';
+    await fileChooser.setFiles(`${dataPath}/data/1.txt`);
     await page.screenshot({ path: '2.png' });
     await fileChooser.setFiles(path.join(__dirname, 'data/2.txt'));
     await page.screenshot({ path: '3.png' });
