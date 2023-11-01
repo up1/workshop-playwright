@@ -1,0 +1,5 @@
+"test_case","user_id","user_name","expected_result"
+"case 01","1","user 01","success"
+"case 02","2","user 02","success"
+"case 03","3","user 03","failure"
+
