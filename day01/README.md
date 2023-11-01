@@ -17,3 +17,9 @@ $npx playwright test --ui
 $npx playwright test
 $npx playwright test --update-snapshots
 ```
+
+## Run by tag
+```
+$npx playwright test --grep @xyz
+$npx playwright test --grep-invert @xyz
+```
