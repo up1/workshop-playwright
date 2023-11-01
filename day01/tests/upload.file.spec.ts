@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import path from 'path';
 
-test('Search data from google @upload', async ({ page }) => {
+test('Upload 3 files @upload', async ({ page }) => {
     // Arrange
     await page.goto('http://nervgh.github.io/pages/angular-file-upload/examples/simple/');
     await page.screenshot({ path: '1.png' });
