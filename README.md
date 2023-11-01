@@ -1,8 +1,10 @@
 # Workshop with Playwright
-* UI
-* API
-* Working with Database and External API
-
+* Web browser testing
+* Visual testing
+* Working with External API
+  * Mock API => XHR/Fetch 
+* Working with API
+* Page Object Model
 
 ## Start with playwright
 
