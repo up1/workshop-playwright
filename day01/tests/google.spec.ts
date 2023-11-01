@@ -19,6 +19,7 @@ test('Search data from google', async ({ page }) => {
 
     // Assert
     const searchResult = page.locator('#result-stats');
+    await expect(searchResult).toBeVisible();
     await expect(searchResult).toContainText('ผลการค้นหาประมาณ');
     await expect(searchResult).toContainText('รายการ');
 
