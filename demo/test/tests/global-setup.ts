@@ -2,6 +2,7 @@ import { chromium, FullConfig } from '@playwright/test'
 import { login } from './utils'
 
 async function globalSetup(config: FullConfig) {
+  console.log('Global setup')
   const { baseURL, storageState } = config.projects[0].use
   const browser = await chromium.launch()
   const page = await browser.newPage({ baseURL })

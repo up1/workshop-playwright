@@ -13,7 +13,7 @@ test.describe('session', () => {
     await expect(page).toHaveTitle('Send mail')
   })
 
-  test('logs out', async ({ page }) => {
+  test('logs out @test', async ({ page }) => {
     const mailPage = new MailPage(page)
     await mailPage.goto()
     await mailPage.logoutButton.click()
@@ -21,4 +21,12 @@ test.describe('session', () => {
     await expect(loginPage.passwordInput).toBeVisible()
     await expect(page).toHaveTitle('Login')
   })
+
+  test('Open email page @test', async ({ page }) => {
+    const mailPage = new MailPage(page)
+    await mailPage.goto()
+    await expect(mailPage.recipientInput).toBeVisible()
+    await expect(page).toHaveTitle('Send mail')
+  })
+
 })
