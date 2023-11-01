@@ -11,3 +11,9 @@ $npx playwright show-report
 ```
 $npx playwright test --ui
 ```
+
+## Visual testing
+```
+$npx playwright test
+$npx playwright test --update-snapshots
+```
