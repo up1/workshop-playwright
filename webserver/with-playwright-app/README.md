@@ -2,6 +2,11 @@
 
 This example shows how to configure Playwright to work with Next.js.
 
+## Create project
+```
+$npx create-next-app --example with-playwright with-playwright-app
+```
+
 
 ## Start web server
 ```
