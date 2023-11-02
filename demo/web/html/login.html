@@ -9,14 +9,14 @@
   <body>
     <form action="/login" method="POST" enctype="multipart/form-data">
       <p>
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" required />
+        <label for="email" data-testid="email_label" >Email</label>
+        <input data-testid="email" type="email" name="email" id="email" required />
       </p>
       <p>
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password" required />
+        <label for="password" data-testid="password_label">Password</label>
+        <input data-testid="email" type="password" name="password" id="password" required />
       </p>
-      <p><button type="submit" id="submit">Login</button></p>
+      <p><button data-testid="submit" type="submit" id="submit">Login</button></p>
     </form>
   </body>
 </html>
